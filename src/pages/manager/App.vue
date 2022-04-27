@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div class="m-title">MANGAGER</div>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -9,6 +10,10 @@
 </template>
 
 <style>
+.m-title{
+  font-size: 30px;
+  color: #42b983;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -29,4 +34,5 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
 </style>
