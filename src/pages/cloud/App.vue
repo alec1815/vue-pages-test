@@ -10,7 +10,7 @@
 </template>
 
 <style>
-.c-title{
+.c-title {
   font-size: 30px;
   color: blue;
 }
